@@ -1,0 +1,64 @@
+.select {
+    border: 1px solid #1c88bf;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 0.2rem;
+    background-color: white;
+    height: 2rem;
+  }
+  
+  .select *{
+    border-radius:15px;
+    width: 10%;
+  }
+  
+  .text-input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.2rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  .button {
+    background: lightseagreen;
+    border: 1px solid white;
+    color: white;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 2.2rem;
+    width: 90%;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .button:hover{
+    color: black
+  }
+
+  .listButton{
+    @extend .button;
+    font-size: 0.7rem;
+    display: inline-block;
+    width: 80px;
+    margin-right: 5px;
+  }
+
+  .listButtonContainer{
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .saveButton{
+    margin: $s-size 0;
+    width: 100%;
+    background: darkorange;
+  }
